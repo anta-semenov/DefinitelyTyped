@@ -4369,6 +4369,10 @@ export interface ModalProperties {
      * @platform ios
      */
     onDismiss?: () => void;
+    /**
+    *The hardwareAccelerated prop controls whether to force hardware acceleration for the underlying window.
+    */
+    hardwareAccelerated?: boolean;
 }
 
 export interface ModalStatic extends React.ComponentClass<ModalProperties> {}
